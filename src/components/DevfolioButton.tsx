@@ -115,17 +115,6 @@ export const DevfolioButton = ({
         style={{ position: 'relative', zIndex: 10000 }}
       ></div>
       
-      {showFallback && !buttonLoaded && (
-        <a 
-          href={`https://devfolio.co/projects/${hackathonSlug}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={fallbackButtonStyle}
-          className="fallback-button"
-        >
-          Apply with Devfolio
-        </a>
-      )}
     </div>
   );
 }; 
